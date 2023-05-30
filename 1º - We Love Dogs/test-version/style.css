@@ -1,0 +1,83 @@
+body {
+    background: rgb(118, 242, 126);
+    font: normal 15pt Arial;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+section {
+    background: rgb(181, 239, 128);
+    border-radius: 4px;
+    padding: 15px;
+    width: 120px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
+
+}
+
+footer {
+    color: white;
+    text-align: left;
+    font-style: italic;
+    display: flex-end;
+}
+
+h1 em {
+    color: green;
+    font-style: normal;
+}
+
+h1 {
+    display: flex;
+    font: normal 30pt Arial;
+    display: flex;
+    flex-direction: row;
+}
+
+:root {
+    --blue: #14dd0d;
+}
+
+button:hover {
+    background: var(--blue);
+    display: flex;
+    align-self: center;
+}
+
+button {
+    background: rgb(195, 238, 86);
+    display: flex;
+    align-self: center;
+    width: 120px;
+    height: 100px;
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+
+}
+
+a {
+    background-color: blueviolet;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#submit {
+    background-color: blue;
+}
+
+/*# id e . class*/
+.erh {
+    display: flex;
+    justify-content: center;
+}

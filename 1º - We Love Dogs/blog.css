@@ -1,0 +1,40 @@
+#mainblog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6%;
+}
+
+#secblog {
+    display: flex;
+    flex-direction: center;
+    margin: 45px 200px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.sub-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 9px;
+    text-transform: none;
+}
+
+.text-blog {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+}

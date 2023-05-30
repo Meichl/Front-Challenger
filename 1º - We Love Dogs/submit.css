@@ -1,0 +1,88 @@
+#mainsub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+
+.title-submit {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.div-submit {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-submit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.lbl-submit {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.input-submit {
+    border: 1px solid #9F9F9F;
+    background: #e3c0c0d8;
+    border-radius: 12px;
+    padding: 12px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19px;
+    width: 300px;
+    text-transform: none;
+}
+
+.psub {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.psubT {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.input-text {
+    resize: none;
+    height: 160px !important;
+}
+
+.btn-sub {
+    background: #7ED321;
+    border-radius: 10px;
+    padding: 10px 45px;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+button:hover {
+    color: rgb(42, 190, 42);
+}
+
+.img-sub {
+    width: 582px;
+    height: 436px;
+}

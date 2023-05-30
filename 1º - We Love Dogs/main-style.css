@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    /*Remove as linhas dos links*/
+    text-transform: capitalize;
+    /*Letras inicias maisculas*/
+}
+
+html {
+    font-size: 60%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+main {
+    padding: 12%;
+    background: rgb(226, 208, 208);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #f3ecec;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1)
+}
+
+header .logo {
+    font-size: 3rem;
+    text-transform: none;
+    color: #1c1b1b;
+    font-weight: bolder;
+}
+
+header .logo em {
+    color: rgb(47, 216, 47);
+    font-style: normal;
+}
+
+header .navbar a {
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #1c1b1b;
+    font-weight: bolder;
+}
+
+header .navbar a:hover {
+    color: rgb(40, 184, 40);
+}
+
+#submit {
+    background: #7ED321;
+    padding: 6px 20px;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+}
+
+.home .content {
+    max-width: 40rem;
+}
+
+.home .content .text-submit {
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: none;
+}
+
+.home .content a {
+    background: #7ED321;
+    margin: 15px;
+    border-radius: 15px;
+    border: none;
+    padding: 15px 45px;
+    text-transform: none;
+    color: #1c1b1b;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.home .content a:hover {
+    color: rgb(40, 184, 40);
+}
+
+footer {
+    background-color: rgb(226, 208, 208);
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}

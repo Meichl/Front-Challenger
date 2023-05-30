@@ -1,0 +1,31 @@
+#who {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(226, 208, 208);
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.text-who {
+    font-style: Verdana;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    width: 687px;
+    height: 176px;
+    left: 377px;
+    top: 229px;
+}
+
+.img-who {
+    width: 354px;
+    height: 266px;
+}
