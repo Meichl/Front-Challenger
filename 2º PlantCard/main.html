@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Vegano</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="modal-main">
+        <div class="modal">
+            <h3> S H A R E </h3>
+            <a href=""><img src="img/facebook.svg" alt=""></a>
+            <a href=""><img src="img/twitter.svg" alt=""></a>
+            <a href=""><img src="img/pinterest.svg" alt=""></a>
+        </div>
+    </div>
+    <section>
+        <img class="img" src="img/plant.png" />
+        <div class="card-focus">
+            <div class="card">
+                <h1>Decore sua casa com plantas</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ab nam in suscipit vitae cumque,
+                    praesentium ipsa eum, debitis atque provident corrupti esse veritatis eos autem consectetur
+                    laudantium repellendus hic!</p>
+            </div>
+            <footer>
+                <div class="doguito">
+                    <img class="pitbull" src="img/doguito.png" alt="">
+                    <div>
+                        <h2>Doguito</h2>
+                        <p>29/09/2023</p>
+                    </div>
+                </div>
+                <button id="but"><img class="direcionamentos" src="img/seta.png" alt=""></button>
+            </footer>
+        </div>
+    </section>
+    <script>
+        const modal = document.querySelector('.modal');
+        const button = document.querySelector('#but');
+        button.addEventListener("click", function () {
+            if (modal.style.display == "flex") {
+                modal.style.display = 'none';
+            } else {
+                modal.style.display = 'flex';
+            }
+        })
+    </script>
+
+</body>
+
+</html>
